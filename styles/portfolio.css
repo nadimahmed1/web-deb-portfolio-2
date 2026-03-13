@@ -168,3 +168,36 @@ main {
 .skill-text{
   margin: 30px 345px 50px 345px;
 }
+/* Resume section styles */
+.resume{
+  margin: 113px 230px 113px 230px;
+}
+.resume-container{
+  display: flex;
+  gap: 71px;
+  margin-top: 113px;
+  margin-bottom: 57px;
+  
+}
+.experience-title{
+  font-size: 25px;
+  font-weight: bold;
+}
+.experience-subtitle{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #757575;
+}
+.resume-column-title{
+  font-size: 30px;
+  font-weight: bold;
+}
+.resume-description{
+  font-size: 16px;
+  color: #757575;
+  
+}
+hr{
+  margin-top: 30px;
+}
