@@ -13,23 +13,28 @@ nav {
   align-items: center;
   margin: 50px 200px;
 }
-nav li{
+
+nav li {
   list-style: none;
 }
-nav li a{
+
+nav li a {
   text-decoration: none;
   color: #474747;
 }
-nav ul{
+
+nav ul {
   display: flex;
   gap: 18px;
   align-items: center;
 }
+
 /* shared styles  */
-.text-primary{
+.text-primary {
   color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
   background-color: #FD6E0A;
   color: white;
   border: none;
@@ -38,43 +43,98 @@ nav ul{
   font-weight: bold;
   border-radius: 5px;
 }
+
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+
+.section-description {
+  font-size: 18px;
+  color: #757575;
+}
+
+.text-center {
+  text-align: center;
+
+}
+
 /* Header styles */
-  header{
-    background-image: url('../images/developer.png'), url('../images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: left top, right bottom;
-    margin: 38px 23px;
-  }
+header {
+  background-image: url('../images/developer.png'), url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+  margin: 38px 23px;
+  background-color: #FFF8F3;
+}
+
+
 /* Banner styles */
 
-.banner{
+.banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: 200px;
   margin-right: 38px;
 }
-.banner-content{
+
+.banner-content {
   max-width: 550px;
 }
-.banner-profile-pic{
+
+.banner-profile-pic {
   width: 550px;
 }
-.banner-greetings{
+
+.banner-greetings {
   font-size: 45px;
   font-weight: 600;
   color: #474747;
 }
-.banner-title{
+
+.banner-title {
   font-size: 85px;
   font-weight: bold;
 }
-.banner-description{
+
+.banner-description {
   font-size: 18px;
   color: #757575;
 }
+
 /* Main styles */
-main{
-  max-width: 1140px;
-  margin: 0 auto;
+main {
+  /* max-width: 1140px;
+  margin: 0 auto; */
+
+}
+
+/* about styles */
+.item-title {
+  font-size: 20px;
+  color: #757575;
+}
+
+.item-description {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about-items {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.about-container {
+  background-color: #FFF8F3;
+  padding: 130px 156px;
+  margin: 80px 230px 130px 230px;
+}
+
+.about-content {
+  border: 1px solid #181818;
+  background-color: white;
 }
